@@ -4,9 +4,15 @@
   "description": "",
   "main": "chat-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node chat-server.js"
   },
-  "author": "",
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Jose Luis Garcia del Castillo",
+  "repository": {
+    "url": "https://github.com/garciadelcastillo/simple-websocket-chat-server"
+  },
   "license": "ISC",
   "dependencies": {
     "websocket": "^1.0.33"
